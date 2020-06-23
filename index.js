@@ -35,6 +35,8 @@ console.log(moo, neigh, baa, oink, cluck)
 const [Bessie, Dolly, Babe, Little] = 'cow sheep pig chicken'.split(' ')
 console.log(Bessie, Dolly, Babe, Little)
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
+const [black_and_white, black, pink] = 'cow sheep pig'.split(' ')
+console.log(black_and_white, black, pink)
 
 // Arrays
 
